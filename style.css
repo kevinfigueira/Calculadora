@@ -1,61 +1,80 @@
 *{
+    font-family: Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .background{
-    background-image: linear-gradient(320deg, #8504BD, #04BDC0);
-    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(90deg, #6E8EFB, #4E4376);
     text-align: center;
     height: 100vh;
     color: white;
 }
 .calculator{
     position: absolute;
-    background: rgba(22, 22, 22, 0.8);
-    border-radius: 5px;
+    border: solid 1px #000;
+    padding: 0.313rem .313rem .938rem .313rem;
+    background-color: #2e2e2e;
+    border-radius: .625rem;
+    box-shadow: 1px 1px 5px #000;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    padding: 10px;
 }
+
+/*==============BUTTONS=============*/
 .button{
+    background-color: #343a40;
+    box-shadow: 1px 1px 1px rgb(22, 21, 21);
+    border-radius: .3rem;
+    line-height: 1.5;
     border: none;
-    background: rgb(7, 7, 7);
+    width: 3.75rem;
+    height: 3.125rem;
+    margin: .313rem;
     color: white;
     font-size: 25px;
-    width: 60px;
-    height: 47px;
     cursor: pointer;
 }
 .button:hover{
     background: rgba(165, 163, 163,0.4);
 }
+
+.colors_orange{
+    background: #F19A34;
+}
+.colors_orange:hover{
+    background: #faae58;
+}
+
+.colors_gray{
+    background: #A5A5A5 ;
+}
+/*==============TITLE=============*/
 .title{
-    margin-bottom: 20px;
-    padding: 5px;
+    margin-bottom: 1.25rem;
+    padding: .313rem;
     text-align: left;
-    text-indent: 5px;
+    text-indent: .313rem;
 }
 .direction{
     direction: rtl;
 }
 #buttonZero{
-    width: 122px;
+    width: 8.125rem;
 }
 #buttonIgual{
-    height: 96px;
+    height: 110px;
 }
 #resultado{
-    background: rgba(247, 242, 242, 0.993);
-    border-radius: 2px;
-    overflow-x: hidden;
-    width: 235px;
-    height: 30px;
-    color: black;
+    width: 17.5rem;
+    background-color: #e9ecef;
+    font-size: 2rem;
+    opacity: 1;
     text-align: right;
-    line-height: 30px;
-    margin-left: 3px;
-    margin-bottom: 3px;
-    padding: 5px;
-    font-size: 35px;    
+    margin-bottom: 10px;
+    padding: .375rem .75rem;
+    border: solid 1px #000;
+    border-radius: .313rem;
+    box-shadow: 1px 1px 1px #000;
 }

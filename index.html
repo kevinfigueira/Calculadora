@@ -11,32 +11,32 @@
 
     <div class="background">
         <div class="calculator">
-            <h1 class="title">Calculdora</h1>
-            <p id="resultado"></p>
+            <h1 class="title">Calculator</h1>
+            <input type="text" name="resultado" id="resultado" placeholder="0" disabled="disabled">
             <table>
                 <tr>
-                    <td><button class="button" onclick="clean()">C</button></td>
-                    <td><button class="button" onclick="erases()">&larr;</button></td>
-                    <td><button class="button" onclick="insert('/')">/</button></td>
-                    <td><button class="button" onclick="insert('*')">*</button></td>
+                    <td><button class="button colors_gray" onclick="clean()">C</button></td>
+                    <td><button class="button colors_gray" onclick="erases()">&larr;</button></td>
+                    <td><button class="button colors_orange" onclick="insert('/')">/</button></td>
+                    <td><button class="button colors_orange" onclick="insert('*')">*</button></td>
                 </tr>
                 <tr>
                     <td><button class="button" onclick="insert('7')">7</button></td>
                     <td><button class="button" onclick="insert('8')">8</button></td>
                     <td><button class="button" onclick="insert('9')">9</button></td>
-                    <td><button class="button" onclick="insert('-')">-</button></td>
+                    <td><button class="button colors_orange" onclick="insert('-')">-</button></td>
                 </tr>
                 <tr>
                     <td><button class="button" onclick="insert('4')">4</button></td>
                     <td><button class="button" onclick="insert('5')">5</button></td>
                     <td><button class="button" onclick="insert('6')">6</button></td>
-                    <td><button class="button" onclick="insert('+')">+</button></td>
+                    <td><button class="button colors_orange" onclick="insert('+')">+</button></td>
                 </tr>
                 <tr>
                     <td><button class="button" onclick="insert('1')">1</button></td>
                     <td><button class="button" onclick="insert('2')">2</button></td>
                     <td><button class="button" onclick="insert('3')">3</button></td>
-                    <td rowspan="2"><button id="buttonIgual" class="button" onclick="calculate()">=</button></td>
+                    <td rowspan="2"><button id="buttonIgual" class="button colors_orange" onclick="calculate()">=</button></td>
                 </tr>
                 <tr>
                     <td colspan="2"><button id="buttonZero" class="button" onclick="insert('0')">0</button></td>
