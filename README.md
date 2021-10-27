@@ -16,7 +16,7 @@
 <div align="center">Click here!</div>
 
 <div align="center">
-        <a href="https://kevinfigueira.github.io/Calculadora/">Access calculator</a>
+        <a href="https://kevinfigueira.github.io/Calculator-Javascript/">Access calculator</a>
 </div>
 
 
